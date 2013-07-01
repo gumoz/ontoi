@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.view.width = PSIsIpad() ? 400 : 150;
+    self.view.width = PSIsIpad() ? 400 : 150;    
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {

@@ -13,7 +13,7 @@
 #import "WelcomeViewController.h"
 #import "ScheduleViewController.h"
 #import "UIImage+OverlayColor.h"
-
+#import "ImageTargetViewController.h"
 #include <QuartzCore/QuartzCore.h>
 
 #define kMenuWidth 200
@@ -134,7 +134,7 @@
         viewController = [[ScheduleViewController alloc] initWithStyle:UITableViewStylePlain];     
         ((ScheduleViewController *)viewController).indexNumber = [stackController.viewControllers count];
     }else if(indexPath.row == 2) { // Twitter style
-        viewController = [[WelcomeViewController alloc] initWithNibName:@"ExampleViewController1" bundle:nil];
+        viewController = [[ImageTargetViewController alloc] initWithNibName:@"ImageTargetViewController" bundle:nil];
         ((WelcomeViewController *)viewController).indexNumber = [stackController.viewControllers count];
         viewController.view.width = roundf((self.view.width - stackController.leftInset)/2);
     }
