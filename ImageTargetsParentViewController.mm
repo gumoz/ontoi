@@ -12,16 +12,26 @@
 
 @implementation ImageTargetsParentViewController
 
+
 - (void)loadView
 {
     NSLog(@"ImageTargetsParentViewController: creating");
+    
+    
+//    arViewRect.size = self.view.bounds.size;
+//    arViewRect.origin.x = arViewRect.origin.y = 0;
+    
+    
     [self createParentViewAndSplashContinuation];
     
     // Add the EAGLView and the overlay view to the window
     arViewController = [[ARViewController alloc] init];
     
+    //1280, 960
+    
     // need to set size here to setup camera image size for AR
     arViewController.arViewSize = arViewRect.size;
+
     [parentView addSubview:arViewController.view];
     
     // Hide the AR view so the parent view can be seen during start-up (the
@@ -67,8 +77,8 @@
     if ([QCARutils getInstance].videoStreamStarted == YES)
     {
         // Create and show the about view
-        AboutViewController *aboutViewController = [[[AboutViewController alloc] init] autorelease];
-        aboutViewController.modalPresentationStyle = UIModalPresentationFormSheet;
+//        AboutViewController *aboutViewController = [[[AboutViewController alloc] init] autorelease];
+//        aboutViewController.modalPresentationStyle = UIModalPresentationFormSheet;
         
         // Animate the modal only if it's an iPad
         BOOL shouldAnimateTransition = NO;
@@ -78,7 +88,7 @@
         }
         
         dispatch_async( dispatch_get_main_queue(), ^{
-            [self presentModalViewController:aboutViewController animated:shouldAnimateTransition];
+//            [self presentModalViewController:aboutViewController animated:shouldAnimateTransition];
         });
     }
 }
