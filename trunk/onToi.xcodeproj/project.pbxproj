@@ -171,8 +171,8 @@
 		A53466391781D3FA001E2DA7 /* TextureTeapotBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TextureTeapotBlue.png; sourceTree = "<group>"; };
 		A534663A1781D3FA001E2DA7 /* TextureTeapotBrass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TextureTeapotBrass.png; sourceTree = "<group>"; };
 		A534663B1781D3FA001E2DA7 /* TextureTeapotRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TextureTeapotRed.png; sourceTree = "<group>"; };
-		A53466481781D591001E2DA7 /* ImageTargetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageTargetViewController.h; path = StackedViewKitExample/ImageTargetViewController.h; sourceTree = "<group>"; };
-		A53466491781D591001E2DA7 /* ImageTargetViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ImageTargetViewController.mm; path = StackedViewKitExample/ImageTargetViewController.mm; sourceTree = "<group>"; };
+		A53466481781D591001E2DA7 /* ImageTargetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTargetViewController.h; sourceTree = "<group>"; };
+		A53466491781D591001E2DA7 /* ImageTargetViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageTargetViewController.mm; sourceTree = "<group>"; };
 		A534664A1781D591001E2DA7 /* ImageTargetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageTargetViewController.xib; sourceTree = "<group>"; };
 		A53C9CCC177B44030052EC1B /* letter_A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = letter_A.png; sourceTree = "<group>"; };
 		A53C9CCD177B44030052EC1B /* letter_C.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = letter_C.png; sourceTree = "<group>"; };
@@ -279,6 +279,8 @@
 				78815F1C13CF3C110011B343 /* WelcomeViewController.xib */,
 				7884393513CEF4C800D18A56 /* ScheduleViewController.h */,
 				7884393613CEF4C800D18A56 /* ScheduleViewController.m */,
+				A53466481781D591001E2DA7 /* ImageTargetViewController.h */,
+				A53466491781D591001E2DA7 /* ImageTargetViewController.mm */,
 				A534664A1781D591001E2DA7 /* ImageTargetViewController.xib */,
 				789A1CD813D44C150005364E /* MenuRootController.h */,
 				789A1CD913D44C150005364E /* MenuRootController.m */,
@@ -360,8 +362,6 @@
 				A53466191781D1B2001E2DA7 /* EAGLView.mm */,
 				A534661A1781D1B2001E2DA7 /* ImageTargetsAppDelegate.h */,
 				A534661B1781D1B2001E2DA7 /* ImageTargetsAppDelegate.mm */,
-				A53466481781D591001E2DA7 /* ImageTargetViewController.h */,
-				A53466491781D591001E2DA7 /* ImageTargetViewController.mm */,
 				A534661C1781D1B2001E2DA7 /* ImageTargetsOverlayViewController.h */,
 				A534661D1781D1B2001E2DA7 /* ImageTargetsOverlayViewController.mm */,
 				A534661E1781D1B2001E2DA7 /* ImageTargetsParentViewController.h */,

@@ -37,7 +37,6 @@ static BOOL firstTime = YES;
     [super viewDidLoad];
     
     self.view.width = PSIsIpad() ? 400 : 150;
-
     
     // ImageTarget App Delegate
     ImageTargetsQCARutils *qUtils = [ImageTargetsQCARutils getInstance];
@@ -51,21 +50,30 @@ static BOOL firstTime = YES;
     [qUtils addTargetName:@"Stones & Chips" atPath:@"StonesAndChips.xml"];
     [qUtils addTargetName:@"Tarmac" atPath:@"Tarmac.xml"];
     [qUtils addTargetName:@"UIA" atPath:@"UIA.xml"];
-    
+
     // Add the EAGLView and the overlay view to the window
 //    arParentViewController = [[ImageTargetsParentViewController alloc] initWithWindow:window];
 //    arParentViewController.arViewRect = screenBounds;
 //    window.rootViewController = arParentViewController;
 //    [window makeKeyAndVisible];
-    
+
     arParentViewController = [[ImageTargetsParentViewController alloc] init];
-    arParentViewController.arViewRect = self.view.bounds;
+//    arParentViewController.arViewRect = self.view.bounds;
+    
+    CGRect cuadrado = CGRectMake(
+                                 self.view.bounds.origin.x,
+                                 self.view.bounds.origin.y,
+                                 self.view.bounds.size.width - 66,
+                                 self.view.bounds.size.height - 66
+                                 );
+    arParentViewController.arViewRect = cuadrado;
+
+    
+//    self.view.bounds.size = arParentViewController.arViewRect.size;
+    
 //    window.rootViewController = arParentViewController;
     [self.view addSubview:arParentViewController.view];
 //    [window makeKeyAndVisible];
-
-    
-    
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
