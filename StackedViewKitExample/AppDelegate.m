@@ -1,13 +1,16 @@
 //
 //  AppDelegate.m
-//  PSStackedViewExample
+//  onToi
 //
-//  Created by Peter Steinberger on 7/14/11.
-//  Copyright 2011 Peter Steinberger. All rights reserved.
+//  Created by Gumoz.
+//  Copyright 2013. All rights reserved.
 //
 
 #import "AppDelegate.h"
 #import "MenuRootController.h"
+
+
+// http://sacalamoya.com/ws/index.php/alumno/datosAlumno
 
 @interface AppDelegate ()
 @property (nonatomic, strong) PSStackedViewController *stackController;
