@@ -68,8 +68,9 @@ static BOOL firstTime = YES;
                                  );
     arParentViewController.arViewRect = cuadrado;
 
-    
-//    self.view.bounds.size = arParentViewController.arViewRect.size;
+    NSLog(@"tamaño %f ", self.view.bounds.size.width - 66);
+    NSLog(@"tamaño %f ", self.view.bounds.size.height - 66);
+    //    self.view.bounds.size = arParentViewController.arViewRect.size;
     
 //    window.rootViewController = arParentViewController;
     [self.view addSubview:arParentViewController.view];

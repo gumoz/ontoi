@@ -17,8 +17,10 @@
 			<key>CFBundleIconFiles</key>
 			<array>
 				<string></string>
-				<string>144x144-72dpi.png</string>
-				<string>72x72-72dpi.png</string>
+				<string>144x144.png</string>
+				<string>72x72.png</string>
+				<string>114x114.png</string>
+				<string>57x57.png</string>
 			</array>
 		</dict>
 	</dict>

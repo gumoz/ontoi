@@ -10,8 +10,10 @@
 
 @interface ScheduleViewController : UITableViewController <PSStackedViewDelegate> {
     NSUInteger indexNumber_;
+    NSArray *horarios_;
 }
 
 @property(nonatomic, assign) NSUInteger indexNumber;
+@property(nonatomic, retain) NSArray *horarios;
 
 @end

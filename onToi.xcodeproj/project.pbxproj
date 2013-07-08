@@ -41,8 +41,9 @@
 		A5053915178479430042E5C8 /* SC10_20130626_124505.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5053910178479430042E5C8 /* SC10_20130626_124505.jpg */; };
 		A5053916178479430042E5C8 /* SC10_20130626_125046.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5053911178479430042E5C8 /* SC10_20130626_125046.jpg */; };
 		A5053917178479430042E5C8 /* SC10_20130626_125135.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5053912178479430042E5C8 /* SC10_20130626_125135.jpg */; };
-		A505391917847A6C0042E5C8 /* onToi.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A505391817847A6C0042E5C8 /* onToi.mp4 */; };
 		A51F50D217789A2E0074F5BA /* libQCAR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A51F50D117789A2E0074F5BA /* libQCAR.a */; };
+		A52C09FF1785D36E00F72159 /* 114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = A52C09FE1785D36E00F72159 /* 114x114.png */; };
+		A52C0A011785D37600F72159 /* 57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = A52C0A001785D37600F72159 /* 57x57.png */; };
 		A532AF1A177DDEC7000F4F06 /* PSStackedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A532AF0E177DDEC7000F4F06 /* PSStackedViewController.m */; };
 		A532AF1B177DDEC7000F4F06 /* PSStackedViewGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = A532AF11177DDEC7000F4F06 /* PSStackedViewGlobal.m */; };
 		A532AF1C177DDEC7000F4F06 /* PSStackedViewSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = A532AF13177DDEC7000F4F06 /* PSStackedViewSegue.m */; };
@@ -91,6 +92,10 @@
 		A53C9CE1177B443E0052EC1B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53C9CDA177B443E0052EC1B /* Security.framework */; };
 		A53C9CFE177B446E0052EC1B /* Shader.fsh in Sources */ = {isa = PBXBuildFile; fileRef = A53C9CFC177B446E0052EC1B /* Shader.fsh */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A53C9CFF177B446E0052EC1B /* Shader.vsh in Sources */ = {isa = PBXBuildFile; fileRef = A53C9CFD177B446E0052EC1B /* Shader.vsh */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A5F60B6B178B05F100737EC5 /* ontoinstrucciones.png in Resources */ = {isa = PBXBuildFile; fileRef = A5F60B6A178B05F100737EC5 /* ontoinstrucciones.png */; };
+		A5F60B6D178B0DB300737EC5 /* ontoilogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A5F60B6C178B0DB300737EC5 /* ontoilogo.png */; };
+		A5F60B74178B13C600737EC5 /* ProfesorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F60B72178B13C600737EC5 /* ProfesorViewController.m */; };
+		A5F60B75178B13C600737EC5 /* ProfesorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F60B73178B13C600737EC5 /* ProfesorViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -137,8 +142,9 @@
 		A5053910178479430042E5C8 /* SC10_20130626_124505.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SC10_20130626_124505.jpg; sourceTree = "<group>"; };
 		A5053911178479430042E5C8 /* SC10_20130626_125046.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SC10_20130626_125046.jpg; sourceTree = "<group>"; };
 		A5053912178479430042E5C8 /* SC10_20130626_125135.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SC10_20130626_125135.jpg; sourceTree = "<group>"; };
-		A505391817847A6C0042E5C8 /* onToi.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = onToi.mp4; sourceTree = "<group>"; };
 		A51F50D117789A2E0074F5BA /* libQCAR.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libQCAR.a; sourceTree = "<group>"; };
+		A52C09FE1785D36E00F72159 /* 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114x114.png; sourceTree = "<group>"; };
+		A52C0A001785D37600F72159 /* 57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57x57.png; sourceTree = "<group>"; };
 		A532AF0C177DDEC7000F4F06 /* PSStackedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSStackedView.h; sourceTree = "<group>"; };
 		A532AF0D177DDEC7000F4F06 /* PSStackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSStackedViewController.h; sourceTree = "<group>"; };
 		A532AF0E177DDEC7000F4F06 /* PSStackedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSStackedViewController.m; sourceTree = "<group>"; };
@@ -213,6 +219,11 @@
 		A53C9CDA177B443E0052EC1B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		A53C9CFC177B446E0052EC1B /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
 		A53C9CFD177B446E0052EC1B /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+		A5F60B6A178B05F100737EC5 /* ontoinstrucciones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ontoinstrucciones.png; sourceTree = "<group>"; };
+		A5F60B6C178B0DB300737EC5 /* ontoilogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ontoilogo.png; sourceTree = "<group>"; };
+		A5F60B71178B13C500737EC5 /* ProfesorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfesorViewController.h; sourceTree = "<group>"; };
+		A5F60B72178B13C600737EC5 /* ProfesorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfesorViewController.m; sourceTree = "<group>"; };
+		A5F60B73178B13C600737EC5 /* ProfesorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfesorViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,6 +270,8 @@
 		787C228213CEE5F400105064 = {
 			isa = PBXGroup;
 			children = (
+				A52C0A001785D37600F72159 /* 57x57.png */,
+				A52C09FE1785D36E00F72159 /* 114x114.png */,
 				A50538F3178476380042E5C8 /* 72x72-72dpi.png */,
 				A50538F11784761D0042E5C8 /* 144x144-72dpi.png */,
 				A50538EF178474EE0042E5C8 /* 72x72.png */,
@@ -309,6 +322,9 @@
 				78815F1C13CF3C110011B343 /* WelcomeViewController.xib */,
 				7884393513CEF4C800D18A56 /* ScheduleViewController.h */,
 				7884393613CEF4C800D18A56 /* ScheduleViewController.m */,
+				A5F60B71178B13C500737EC5 /* ProfesorViewController.h */,
+				A5F60B72178B13C600737EC5 /* ProfesorViewController.m */,
+				A5F60B73178B13C600737EC5 /* ProfesorViewController.xib */,
 				A53466481781D591001E2DA7 /* ImageTargetViewController.h */,
 				A53466491781D591001E2DA7 /* ImageTargetViewController.mm */,
 				A534664A1781D591001E2DA7 /* ImageTargetViewController.xib */,
@@ -359,7 +375,8 @@
 		7884393E13CEF82D00D18A56 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				A505391817847A6C0042E5C8 /* onToi.mp4 */,
+				A5F60B6C178B0DB300737EC5 /* ontoilogo.png */,
+				A5F60B6A178B05F100737EC5 /* ontoinstrucciones.png */,
 				A50538F51784792B0042E5C8 /* Salas de Computo */,
 				3798AD7313E0B299004C1E33 /* error */,
 				3798AD7713E0B299004C1E33 /* NewGlow */,
@@ -601,7 +618,11 @@
 				A5053915178479430042E5C8 /* SC10_20130626_124505.jpg in Resources */,
 				A5053916178479430042E5C8 /* SC10_20130626_125046.jpg in Resources */,
 				A5053917178479430042E5C8 /* SC10_20130626_125135.jpg in Resources */,
-				A505391917847A6C0042E5C8 /* onToi.mp4 in Resources */,
+				A52C09FF1785D36E00F72159 /* 114x114.png in Resources */,
+				A52C0A011785D37600F72159 /* 57x57.png in Resources */,
+				A5F60B6B178B05F100737EC5 /* ontoinstrucciones.png in Resources */,
+				A5F60B6D178B0DB300737EC5 /* ontoilogo.png in Resources */,
+				A5F60B75178B13C600737EC5 /* ProfesorViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,6 +663,7 @@
 				A53466261781D1B2001E2DA7 /* ImageTargetsQCARutils.mm in Sources */,
 				A534662A1781D3D0001E2DA7 /* AboutViewController.mm in Sources */,
 				A534664B1781D591001E2DA7 /* ImageTargetViewController.mm in Sources */,
+				A5F60B74178B13C600737EC5 /* ProfesorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
